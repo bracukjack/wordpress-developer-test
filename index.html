@@ -7,10 +7,11 @@
     <link href="css/custom.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- navbar -->
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">YOUR LOGO</a>
+      <nav class="navbar navbar-expand-lg bg-primary bg-opacity-10 py-4">
+        <div class="container">
+          <a class="navbar-brand text-primary fw-bold" href="#">YOUR LOGO</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -22,25 +23,177 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav font-lato fw-regular">
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav font-lato fw-regular gap-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" aria-current="page" href="service.html"
+                  >Service</a
+                >
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" aria-current="page" href="contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
+
+    <!-- section home  -->
+    <section>
+      <div class="container my-5 py-5 text-center">
+        <div class="row gx-5 align-items-center">
+          <div class="col-5 text-start">
+            <div class="d-flex flex-column align-items-start gap-4">
+              <h1 class="fw-bolder">
+                We help you find <br />
+                the best solution.
+              </h1>
+
+              <p class="text-secondary">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </p>
+
+              <a href="contact.html" class="btn btn-warning rounded-0"
+                >Get A Quote</a
+              >
+            </div>
+          </div>
+          <div class="col-7">
+            <img src="asset/home.svg" alt="home" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section service  -->
+    <section>
+      <div class="container my-5 py-5">
+        <div class="justify-content-center">
+          <h2 class="text-center fw-semibold fs-2 my-5">
+            We offer a complete <br />
+            range of features
+          </h2>
+
+          <div class="row">
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-cart2 text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Store Integration</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Eos tota dicunt democritum no. Has natum gubergren ne. Est viris
+                soleat sadipscing cu. Legere epicuri insolens eu nec, dicit
+                virtute urbanitas id nam, qui in habeo semper eligendi.
+              </p>
+            </div>
+
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-shield text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Data Protection</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Ne nam phaedrum consequat, adhuc aliquid ea pri, eum eligendi
+                incorrupte referrentur in. Vix ad senserit salutandi argumentum.
+                Ei eam definiebas reformidans, exerci persecuti no ius.
+              </p>
+            </div>
+
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-tag text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Invoice Generator</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Assum suavitate ea vel, vero erat doming cu cum. Zril ornatus
+                sea cu. Pro ex integre pertinax. Cu cum harum paulo legendos,
+                mei et quod enim mnesarchum, habeo affert laoreet sea ei.
+              </p>
+            </div>
+
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-send text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Auto Responder</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Eos tota dicunt democritum no. Has natum gubergren ne. Est viris
+                soleat sadipscing cu. Legere epicuri insolens eu nec, dicit
+                virtute urbanitas id nam, qui in habeo semper eligendi.
+              </p>
+            </div>
+
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-share text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Social Plugins</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Eos tota dicunt democritum no. Has natum gubergren ne. Est viris
+                soleat sadipscing cu. Legere epicuri insolens eu nec, dicit
+                virtute urbanitas id nam, qui in habeo semper eligendi.
+              </p>
+            </div>
+
+            <div
+              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+            >
+              <i class="bi bi-database text-primary fs-2"></i>
+              <p class="fw-semibold fs-4">Data Backup</p>
+              <p class="text-black fs-6 fw-light text-center">
+                Ne nam phaedrum consequat, adhuc aliquid ea pri, eum eligendi
+                incorrupte referrentur in. Vix ad senserit salutandi argumentum.
+                Ei eam definiebas reformidans, exerci persecuti no ius.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section contact  -->
+    <section>
+      <div class="mt-5 py-5 bg-gradient-orange">
+        <div class="container py-5">
+          <div class="text-white flex-column text-center">
+            <h2 class="fw-bold fs-2 text-white">Ready to get started?</h2>
+            <p class="fw-light fs-6 text-white">
+              Take control of your Business Data. <br />
+              Try saas to make your business better
+            </p>
+            <a href="contact.html" class="btn btn-primary rounded-0">
+              Get A Quote
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="container py-4 align-items-center">
+        <div class="text-white text-center">
+          © Your Company. All rights reserved.
+        </div>
+      </div>
+    </footer>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
