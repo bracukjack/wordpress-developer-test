@@ -9,7 +9,7 @@
   <body>
     <!-- navbar -->
     <div>
-      <nav class="navbar navbar-expand-lg bg-primary bg-opacity-10 py-4">
+      <nav class="navbar navbar-expand-sm bg-primary bg-opacity-10 py-4">
         <div class="container">
           <a class="navbar-brand text-primary" href="#">YOUR LOGO</a>
           <button
@@ -24,17 +24,17 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse d-flex justify-content-end"
+            class="collapse navbar-collapse d-lg-flex justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav font-lato fw-regular gap-5">
-              <li class="nav-item">
+            <ul class="navbar-nav font-lato fw-regular">
+              <li class="nav-item px-3">
                 <a class="nav-link" aria-current="page" href="index.html"
                   >Home</a
                 >
               </li>
 
-              <li class="nav-item">
+              <li class="nav-item px-3">
                 <a
                   class="nav-link active text-primary"
                   aria-current="page"
@@ -43,7 +43,7 @@
                 >
               </li>
 
-              <li class="nav-item">
+              <li class="nav-item px-3">
                 <a class="nav-link" aria-current="page" href="contact.html"
                   >Contact</a
                 >
@@ -137,6 +137,41 @@
       </div>
     </section>
 
+    <!-- Service  -->
+    <section>
+      <div class="container my-5 py-5 text-center">
+        <div class="row gx-5 align-items-center justify-content-between">
+          <div class="col-12 col-lg-6 text-start">
+            <div class="d-flex flex-column align-items-start gap-4">
+              <h1 class="fw-bolder">
+                We help you find <br />
+                the best solution.
+              </h1>
+
+              <p class="text-secondary">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </p>
+
+              <a
+                href="contact.html"
+                class="btn btn-orange py-2 px-3 text-white rounded-0"
+                >Get A Quote</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <img
+              src="asset/graphic.svg"
+              alt="home"
+              class="img-fluid d-block object-fit-contain"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- section contact  -->
     <section>
       <div class="mt-5 py-5 bg-gradient-orange">
@@ -147,7 +182,10 @@
               Take control of your Business Data. <br />
               Try saas to make your business better
             </p>
-            <a href="contact.html" class="btn btn-primary rounded-0">
+            <a
+              href="contact.html"
+              class="btn btn-blue py-2 px-3 text-white rounded-0"
+            >
               Get A Quote
             </a>
           </div>
@@ -163,6 +201,6 @@
       </div>
     </footer>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

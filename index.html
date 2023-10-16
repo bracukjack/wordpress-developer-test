@@ -9,9 +9,11 @@
   <body>
     <!-- navbar -->
     <div>
-      <nav class="navbar navbar-expand-lg bg-primary bg-opacity-10 py-4">
+      <nav class="navbar navbar-expand-sm bg-primary bg-opacity-10 py-4">
         <div class="container">
-          <a class="navbar-brand text-primary fw-bold" href="#">YOUR LOGO</a>
+          <a class="navbar-brand text-primary fw-bold" href="index.html"
+            >YOUR LOGO</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -24,29 +26,30 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse d-flex justify-content-end"
+            class="collapse navbar-collapse d-lg-flex justify-content-end"
             id="navbarNav"
           >
-            <ul class="navbar-nav font-lato fw-regular gap-5">
-              <li class="nav-item">
+            <ul class="navbar-nav font-lato fw-regular">
+              <li class="nav-item px-3">
                 <a
                   class="nav-link active text-primary"
                   aria-current="page"
                   href="index.html"
-                  >Home</a
                 >
+                  Home
+                </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="service.html"
-                  >Service</a
-                >
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="service.html">
+                  Service
+                </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="contact.html"
-                  >Contact</a
-                >
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="contact.html">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -58,7 +61,7 @@
     <section>
       <div class="container my-5 py-5 text-center">
         <div class="row gx-5 align-items-center">
-          <div class="col-5 text-start">
+          <div class="col-12 col-lg-5 text-start">
             <div class="d-flex flex-column align-items-start gap-4">
               <h1 class="fw-bolder">
                 We help you find <br />
@@ -71,13 +74,19 @@
                 visual mockups.
               </p>
 
-              <a href="contact.html" class="btn btn-warning rounded-0"
+              <a
+                href="contact.html"
+                class="btn btn-orange text-white py-2 px-3 rounded-0"
                 >Get A Quote</a
               >
             </div>
           </div>
-          <div class="col-7">
-            <img src="asset/home.svg" alt="home" />
+          <div class="col-12 col-lg-7 d-flex justify-content-center">
+            <img
+              src="asset/home.svg"
+              alt="home"
+              class="img-fluid d-block object-fit-contain"
+            />
           </div>
         </div>
       </div>
@@ -94,7 +103,7 @@
 
           <div class="row">
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-cart2 text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Store Integration</p>
@@ -106,7 +115,7 @@
             </div>
 
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-shield text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Data Protection</p>
@@ -118,7 +127,7 @@
             </div>
 
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-tag text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Invoice Generator</p>
@@ -130,7 +139,7 @@
             </div>
 
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-send text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Auto Responder</p>
@@ -142,7 +151,7 @@
             </div>
 
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-share text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Social Plugins</p>
@@ -154,7 +163,7 @@
             </div>
 
             <div
-              class="d-flex flex-column gap-2 align-items-center p-3 justify-content-center col-lg-4 col-sm-6 col-12"
+              class="d-flex flex-column gap-2 align-items-center p-4 justify-content-center col-lg-4 col-sm-6 col-12"
             >
               <i class="bi bi-database text-primary fs-2"></i>
               <p class="fw-semibold fs-4">Data Backup</p>
@@ -179,7 +188,10 @@
               Take control of your Business Data. <br />
               Try saas to make your business better
             </p>
-            <a href="contact.html" class="btn btn-primary rounded-0">
+            <a
+              href="contact.html"
+              class="btn btn-blue py-2 px-3 text-white rounded-0"
+            >
               Get A Quote
             </a>
           </div>
@@ -195,6 +207,6 @@
       </div>
     </footer>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

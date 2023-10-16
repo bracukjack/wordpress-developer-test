@@ -11865,6 +11865,22 @@ textarea.form-control-lg {
   background: linear-gradient(to bottom, #f18825, #f46565);
 }
 
+.btn-orange {
+  background-color: #f18825;
+}
+
+.btn-orange:hover {
+  background-color: #ffa450;
+}
+
+.btn-blue {
+  background-color: #2b3dec;
+}
+
+.btn-blue:hover {
+  background-color: #3044fe;
+}
+
 body {
   font-family: "Mulish", sans-serif;
 }

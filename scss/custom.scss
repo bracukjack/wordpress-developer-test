@@ -28,6 +28,40 @@ $gradient-end: #f46565;
   background: linear-gradient(to bottom, $gradient-start, $gradient-end);
 }
 
+.btn-orange {
+  background-color: #f18825;
+}
+
+.btn-orange:hover {
+  background-color: #ffa450;
+}
+
+.btn-blue {
+  background-color: #2b3dec;
+}
+
+.btn-blue:hover {
+  background-color: #3044fe;
+}
+
+$blue: #2b3dec;
+$orange: #f18825;
+$gray: #373c3d;
+
+$primary: $orange;
+$warning: $orange;
+$dark: $gray;
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "primary": $primary,
+    "warning": $warning,
+    "dark": $dark,
+  )
+);
+
 $font-weight-extrabold: 900;
 
 body {
